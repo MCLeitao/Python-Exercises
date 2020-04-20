@@ -4,4 +4,3 @@ import math
 
 for ask in range(0, 5):
     weight = float(input('Enter the weight: '))
-

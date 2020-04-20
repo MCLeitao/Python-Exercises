@@ -2,10 +2,9 @@
 # pause between them.
 
 from time import sleep
-import emoji
 
-print('{:=^54}'.format(' Countdown to the Burst of Fireworks '))
-for c in range(0, 11):
-    print(c)
+print('{:=^58}'.format('\nBurst of Fireworks\n'))
+for cont in range(10, -1, -1):
+    print(cont)
     sleep(1)
-print(emoji.emojize('Burst of Fireworks!!:boom:', use_aliases=True))
+print('Burst of Fireworks!!')
