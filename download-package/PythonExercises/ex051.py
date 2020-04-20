@@ -9,7 +9,7 @@ reason = int(input('Enter the Reason: '))
 ap = 0
 for c in range(0, 10):
     ap = first + (reason * c)
-    print(ap, end=' -> ')
+    print(ap, end=' → ')
 print('END')
 
 # Another way:
@@ -17,5 +17,5 @@ print('END')
 # reason = int(input('Enter the Reason: '))
 # tenth = first + (10 - 1) * reason
 # for c in range(first, tenth + reason, reason):
-#     print('{}'.format(c), end=' -> ')
+#     print('{}'.format(c), end=' → ')
 # print('END')

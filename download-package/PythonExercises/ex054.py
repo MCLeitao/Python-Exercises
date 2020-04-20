@@ -5,9 +5,10 @@ from datetime import date
 today = date.today().year
 maj = 0
 min = 0
-for ask in range(0, 7):
-    birth = int(input('Enter the Year of Birth: '))
-    if today - birth >= 21:
+for people in range(1, 8):
+    birth = int(input('What year was the {}ª person born? '.format(people)))
+    age = today - birth
+    if age >= 21:
         maj += 1
     else:
         min += 1
