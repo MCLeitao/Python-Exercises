@@ -2,15 +2,15 @@
 
 highest = 0
 lowest = 0
-for p in range(1, 6):
-    weight = float(input('{}ª person weight: '.format(p)))
-    if p == 1:
+for reader in range(1, 6):
+    weight = float(input(f'{reader}ª person weight: '))
+    if reader == 1:
         highest = weight
         lowest = weight
     else:
         if weight > highest:
             highest = weight
-        if weight < lowest:
+        elif weight < lowest:
             lowest = weight
-print('The highest weight read was {:.2f} kg'.format(highest))
-print('The lowest weight read was {:.2f} kg'.format(lowest))
+print(f'The highest weight read was {highest:.2f} kg.')
+print(f'The lowest weight read was {lowest:.2f} kg.')

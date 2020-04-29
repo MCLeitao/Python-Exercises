@@ -3,8 +3,17 @@
 
 sum = 0  # Accumulator
 cont = 0  # Counter
-for c in range(1, 501, 2):
-    if c % 3 == 0:
+for num in range(1, 501, 2):
+    if num % 3 == 0:
         cont += 1  # cont = cont + 1
-        sum += c  # sum = sum + c
-print('The SUM of all {} request values is {}'.format(cont, sum))
+        sum += num  # sum = sum + c
+print(f'The SUM of all {cont} request values is {sum}')
+# Another way:
+# Perform more iterations - use more processor capacity
+"""
+for num in range(1, 501):
+    if num % 2 != 0 and num % 3 == 0:
+        cont += 1
+        sum += num
+print(f'The SUM of all {cont} request values is {sum}')
+"""

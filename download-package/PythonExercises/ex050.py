@@ -4,8 +4,8 @@
 sum = 0
 cont = 0
 for c in range(1, 7):
-    num = int(input('Enter the {} number: '.format(c)))
+    num = int(input('Enter the {}ª number: '.format(c)))
     if num % 2 == 0:
         sum += num
         cont += 1
-print('The Sum of the {} even Numbers is {}'.format(cont, sum))
+print(f'The Sum of the {cont} even Numbers is {sum}.')

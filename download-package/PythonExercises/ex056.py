@@ -6,13 +6,13 @@ average = 0
 older = 0
 oldname = ''
 young = 0
-for p in range(1, 5):
-    print('----- {}ª Person -----'.format(p))
+for reader in range(1, 5):
+    print('----- {}ª Person -----'.format(reader))
     name = str(input('Name: ')).strip().title()
     age = int(input('Age: '))
-    sex = str(input('Sex [M/F]: ')).strip()
+    sex = str(input('Sex [M/F]: ')).strip()[0]
     sum += age
-    if p == 1 and sex in 'Mm':
+    if reader == 1 and sex in 'Mm':
         older = age
         oldname = name
     if sex in 'Mm' and age > older:
@@ -21,6 +21,6 @@ for p in range(1, 5):
     if age < 20 and sex in 'Ff':
         young += 1
 average = sum / 4
-print('The mean age of the group is {} years.'.format(average))
-print('The oldest man is {} years old and is called {}.'.format(older, oldname))
-print('There are {} women under 20 years old'.format(young))
+print(f'The mean age of the group is {average} years.')
+print(f'The oldest man is {older} years old and is called {oldname}.')
+print(f'There are {young} women under 20 years old.')

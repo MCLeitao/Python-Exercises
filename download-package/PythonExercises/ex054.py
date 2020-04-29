@@ -6,13 +6,13 @@ today = date.today().year
 maj = 0
 min = 0
 for people in range(1, 8):
-    birth = int(input('What year was the {}ª person born? '.format(people)))
+    birth = int(input(f'What year was the {people}ª person born? '))
     age = today - birth
     if age >= 21:
         maj += 1
     else:
         min += 1
 print('-' * 20)
-print('{} people have reached adulthood'.format(maj))
-print('{} people have NOT yet reached the age of majority'.format(min))
+print(f'{maj} people have reached adulthood.')
+print(f'{min} people have NOT yet reached the age of majority.')
 print('-' * 20)

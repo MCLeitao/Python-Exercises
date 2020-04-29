@@ -8,7 +8,7 @@ reverse = ''
 # reverse = together[::-1] - That way you don't need to use the for loop
 for letter in range(len(together) - 1, -1, -1):
     reverse += together[letter]
-print('The inverse of {} is {}.'.format(together, reverse))
+print(f'The inverse of {together} is {reverse}.')
 if reverse == together:
     print('We have a PALINDROME!!')
 else:

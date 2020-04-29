@@ -4,18 +4,18 @@
 print('=' * 22)
 print('Arithmetic Progression')
 print('=' * 22)
-first = int(input('Enter first Term: '))
-reason = int(input('Enter the Reason: '))
-ap = 0
-for c in range(0, 10):
-    ap = first + (reason * c)
-    print(ap, end=' → ')
+first = int(input('1ª term: '))
+reason = int(input('Reason: '))
+eleventh = first + (11 - 1) * reason
+for progression in range(first, eleventh, reason):
+    print(f'{progression}', end=' ⇢ ')
 print('END')
 
 # Another way:
-# first = int(input('Enter first Term: '))
-# reason = int(input('Enter the Reason: '))
-# tenth = first + (10 - 1) * reason
-# for c in range(first, tenth + reason, reason):
-#     print('{}'.format(c), end=' → ')
-# print('END')
+"""
+progression = 0
+for position in range(0, 10):
+    progression = first + (reason * position)
+    print(f'{progression}', end=' ⇢ ')
+print('END')
+"""
