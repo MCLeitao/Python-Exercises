@@ -1,6 +1,11 @@
 # Python Exercises
  Exercises solved in the **Python 3** course from [Curso em Vídeo](https://www.youtube.com/user/cursosemvideo)
 
+
+# World 1: Fundamentals
+---
+
+
 ## Introduction
 
 **Ex001**: Create a program that says “Hello, World!” on the screen.
@@ -90,6 +95,10 @@ For salaries in excess of US$ 1,250.00, calculate an increase of 10%. For those 
 **Ex035**: Develop a program that reads the length of three lines and tells the user whether or not they can form a triangle.
 
 
+# World 2: Control Structures
+---
+
+
 ## Conditional Statements
 
 **Ex036**: Write a program to approve the bank loan for the purchase of a home. The program will ask for the value of the house,  the buyer’s salary and how many years he will pay. Calculate the monthly instalment amount,  knowing that it cannot exceed 30% of the salary or the loan will be denied.
@@ -159,6 +168,7 @@ At the end, show the first 10 terms of this progression.
 
 **Ex065**: Create a program that reads several integers from the keyboard. At the end of the run, show the average of all values and which was the highest and lowest values read. The program should ask the user whether or not he wants to continue to enter the values. 
 
+
 ## Interrupting while Repetition
 
 **Ex066**: Create a program that reads several integers from the keyboard. The program will only stop when the user enters the value 999, which is the stop condition. At the end, show how many numbers were entered and what was the sum between them (disregarding the flag).
@@ -172,6 +182,11 @@ At the end, show the first 10 terms of this progression.
 **Ex070**: Create a program that reads the name and price of various products. The program should ask if the user will continue. At the end, show: A) What is the total spend on the purchase. B) How many products cost more than US$ 1000.00. C) What is the cheapest product name.
 
 **Ex071**: Create a program that simulates the functioning of an ATM. At the beginning, ask the user what will be the amount to be withdrawn (whole number) and the program will inform how many bills of each amount will be delivered. Consider that the ATM has banknotes of US$50, US$20, US$10 and US$1.
+
+
+# World 3: Composite Structures
+---
+
 
 ## Tuple
 
