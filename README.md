@@ -172,3 +172,17 @@ At the end, show the first 10 terms of this progression.
 **Ex070**: Create a program that reads the name and price of various products. The program should ask if the user will continue. At the end, show: A) What is the total spend on the purchase. B) How many products cost more than US$ 1000.00. C) What is the cheapest product name.
 
 **Ex071**: Create a program that simulates the functioning of an ATM. At the beginning, ask the user what will be the amount to be withdrawn (whole number) and the program will inform how many bills of each amount will be delivered. Consider that the ATM has banknotes of US$50, US$20, US$10 and US$1.
+
+## Tuple
+
+**Ex072**: Create a program that has a tuple fully populated with a count in full, from zero to twenty. Your program should read a number on the keyboard (between 0 and 20) and show it in full.
+
+**Ex073**: Create a tuple filled with the top 20 in the Premier League table, in order of placement. Then show: A) Only the top 5 B) The last 4 placed in the table; C) An alphabetical list of teams; D) What position on the table is Manchester United.
+
+**Ex074**: Create a program that will generate five random numbers and place it in a tuple. After that, show the list of generated numbers and also indicate the lowest and highest values that are in the tuple.
+
+**Ex075**: Develop a program that reads four values from the keyboard and stores them in a tuple. At the end, show: A) How many times did the value 9 appear. B) In which position the first value 3 was entered. C) What were the even numbers.
+
+**Ex076**: Create a program that has a unique tuple with product names and their respective prices, next. At the end, show a price list, organizing the data in tabular form. 
+
+**Ex077**: Create a program that has a tuple with several words (do not use accents). After that, you must show, for each word, what are your vowels.
