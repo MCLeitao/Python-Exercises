@@ -201,3 +201,18 @@ At the end, show the first 10 terms of this progression.
 **Ex076**: Create a program that has a unique tuple with product names and their respective prices, next. At the end, show a price list, organizing the data in tabular form. 
 
 **Ex077**: Create a program that has a tuple with several words (do not use accents). After that, you must show, for each word, what are your vowels.
+
+
+## List (Part I)
+
+**Ex078**: Make a program that reads 5 numeric values and saves them in a list. At the end, show which was the highest and lowest value entered and their respective positions in the list.
+
+**Ex079**: Create a program where the user can enter several numeric values and register them in a list.  If the number already exists inside, it will not be added. At the end, all the unique values entered will be displayed, in ascending order.
+
+**Ex080**: Create a program where the user can enter five numeric values and register them in a list, already in the correct insertion position (without using the sort ( )). At the end, show the ordered list on the screen.
+
+**Ex081**: Create a program that will read several numbers and put them on a list. After that, show: A) How many numbers were entered. B) The list of values, ordered descending. C) Whether value 5 was entered and whether or not it is in the list.
+
+**Ex082**: Create a program that will read multiple numbers and put them in a list.  After that, create two extra lists that will contain only the even values and the odd values entered, respectively. At the end, show the content of the three lists generated.
+
+**Ex083**: Create a program where the user types any expression using parentheses. Your application should analyse whether the expression passed is with open and closed parentheses in the correct order.
