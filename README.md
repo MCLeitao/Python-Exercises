@@ -216,3 +216,17 @@ At the end, show the first 10 terms of this progression.
 **Ex082**: Create a program that will read multiple numbers and put them in a list.  After that, create two extra lists that will contain only the even values and the odd values entered, respectively. At the end, show the content of the three lists generated.
 
 **Ex083**: Create a program where the user types any expression using parentheses. Your application should analyse whether the expression passed is with open and closed parentheses in the correct order.
+
+## List (Part II)
+
+**Ex084**: Make a program that reads the names and weight of several people, keeping everything in a list. At the end, show: A) How many people were registered. B) A listing with the heaviest people. C) A listing with the lightest people.
+
+**Ex085**: Create a program where the user can enter seven numerical values and register them in a single list that keeps the odd and even values separate. At the end, show even and odd values in ascending order.
+
+**Ex086**: Create a program that creates a 3x3 dimension matrix and fills in values read from the keyboard. At the end, show the matrix on the screen, with the correct formatting.
+
+**Ex087**: Improve the previous exercise, showing at the end: A) The sum of all typed even values. B) The sum of the values in the  third column. C) The highest value of the second line.
+
+**Ex088**: Make a program that helps a PowerBall player to make guesses. The program will ask how many games will be generated and will raffle 6 numbers between 1 and 60 for each game, registering everything in a composite list.
+
+**Ex089**: Create a program that reads the name and two notes of several students and stores everything in a compound list. At the end, show a bulletin containing the average of each one and allow the user to show the grades of each student individually.
