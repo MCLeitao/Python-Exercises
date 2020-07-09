@@ -230,3 +230,17 @@ At the end, show the first 10 terms of this progression.
 **Ex088**: Make a program that helps a PowerBall player to make guesses. The program will ask how many games will be generated and will raffle 6 numbers between 1 and 60 for each game, registering everything in a composite list.
 
 **Ex089**: Create a program that reads the name and two notes of several students and stores everything in a compound list. At the end, show a bulletin containing the average of each one and allow the user to show the grades of each student individually.
+
+## Dictionary
+
+**Ex090**: Make a program that reads a student's name and average, and also stores the situation in a dictionary. At the end, show the content of the structure on the screen. 
+
+**Ex091**: Create a program where 4 players roll a die and have random results. Store these results in a dictionary. In the end, put this dictionary in order, knowing that the winner has the highest number in the die.
+
+**Ex092**: Create a program that reads name, year of birth and work permit and records them (with age) in a dictionary, if by chance the National Insurance Number (NI number) is different from zero, the dictionary will also receive the year of hire and salary. Calculate and add, in addition to age, how old the person will retire (35 years of contribution).
+
+**Ex093**: Create a program that manages the performance of a football player. The program will read the player’s name and how many matches he has played. Then It will read the number of goals scored in each match. In the end, all of this will be kept in a dictionary, including the total goals scored during the championship.
+
+**Ex094**: Create a program that reads the name, sex and age of several people, saving each person's data in a dictionary and all dictionaries in a list. At the end, show: A) How many people were registered; B) The average age of the group; C) A list of all women; D) A list of all above average people.
+
+**Ex095**: Enhance Ex093 so that it works with multiple players, including a system for viewing details of each player's performance.
